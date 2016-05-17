@@ -15,8 +15,8 @@
 	<link rel="stylesheet" href="">
 </head>
 <body>
-	<h1>Primer formulario</h1>
-	<fieldset>
+	<h1>Formulario de contacto</h1>
+	<!--<fieldset>
 		<legend>Formulario de Prueba</legend>
 		<form action="">
 			<input type="text" name="name" id="name" maxlength="5" placeholder="Ingresar Nombre">
@@ -68,6 +68,18 @@
 			<br>
 			<button type="submit">Enviar</button>
 			<br>
+		</form>
+	</fieldset>-->
+	<fieldset>
+		<legend>Datos personales</legend>
+		<form action="" method="get" accept-charset="utf-8">
+			<label>Nombre<input type="name" name="nombre" value="" placeholder="Ej: Diego Meneses"></label>
+			<br>
+			<label>Email<input type="email" name="mail" value="" placeholder="Ej: hola@chao.cl"></label>
+			<br>
+			<label>Comentario <br> <textarea name="contenido" cols="30" rows="20"></textarea></label>
+			<br>
+			<input type="submit" name="btn" value="enviar">
 		</form>
 	</fieldset>
 	<script>
